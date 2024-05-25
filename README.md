@@ -38,7 +38,6 @@ we go with single leader replication.
 Here we used Fixed Window Size.
 
 ## High Level Design 
-
-
+![image](https://github.com/omprakashpatel27/RateLimiter/assets/59342793/434c01c2-ac68-497e-8500-5283a424e364)
 
 
