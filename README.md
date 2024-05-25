@@ -1,7 +1,7 @@
 # Rate Limiter
 
 ## Problem Statement 
-Build a Rate Limiter that stops users from submitting to many requests. 
+Build a Rate Limiter that stops users from submitting too many requests. 
 
 ## Capacity Estimation 
 Assumption : 1 Billion ( 10^9 ) user going to call the rate limiter , we are using userId, timestamp from each userId every post call , userId corresponds to 8 bytes & also we are tracking the counts the service is called which takes 4 bytes , let suppose we have 20 services , then amount of data needed to store is : 
